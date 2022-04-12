@@ -184,9 +184,10 @@ const ContentsOne = ({ open, setOpen, onOpenModal, onCloseModal }) => {
             duration={"2022.05.13"}
           ></InnerContentsBox>
           <LastLineInnerBox
-            onClick={() => {
-              onOpenModal();
-            }}
+            as={"a"}
+            href={
+              "https://docs.google.com/forms/d/e/1FAIpQLSfN_dak5rYSmtBjmTog0ccn7n-ZcBCWq22MMCujt72XqIlBvA/viewform"
+            }
           >
             <text
               style={{

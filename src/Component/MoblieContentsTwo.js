@@ -32,7 +32,7 @@ const LineSizeTwo = styled.div`
 
 const LineSizeFive = styled.div`
   font-family: "Pretendard-ExtraBold";
-  font-size: 3vw;
+  font-size: 4vw;
   ${({ marginTop }) => {
     return marginTop ? `margin-top: ${marginTop}` : null;
   }}
@@ -40,7 +40,7 @@ const LineSizeFive = styled.div`
 
 const LineSizeSix = styled.div`
   font-family: "Pretendard-Light";
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   ${({ marginTop }) => {
     return marginTop ? `margin-top: ${marginTop}` : null;
   }}
@@ -104,9 +104,9 @@ const GreenBoxWrapperOne = styled.div`
   align-items: center;
   margin-left: 3vw;
   margin-top: 3vw;
-  background-size: 12vw 0.8vw;
+  background-size: 16vw 0.8vw;
   background-image: url(${LongLine});
-  background-position: right 50% bottom 69%;
+  background-position: right 50% bottom 77%;
   background-repeat: no-repeat;
   box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw lightgray;
 `;
@@ -203,7 +203,7 @@ const MobileContentsTwo = () => {
       </MiddleLineContainer>
       <GreenBoxContainer>
         <GreenBoxWrapperOne>
-          <LineSizeFive marginTop={"5vw"}>인구/생활</LineSizeFive>
+          <LineSizeFive marginTop={"2vw"}>인구/생활</LineSizeFive>
           <LineSizeSix marginTop={"2vw"}>
             <text>산업고용</text>
           </LineSizeSix>
@@ -221,7 +221,7 @@ const MobileContentsTwo = () => {
           </LineSizeSix>
         </GreenBoxWrapperOne>
         <GreenBoxWrapperOne>
-          <LineSizeFive marginTop={"5vw"}>경제/공공</LineSizeFive>
+          <LineSizeFive marginTop={"2vw"}>경제/공공</LineSizeFive>
           <LineSizeSix marginTop={"2vw"}>
             <text>산업고용</text>
           </LineSizeSix>
@@ -236,7 +236,7 @@ const MobileContentsTwo = () => {
           </LineSizeSix>
         </GreenBoxWrapperOne>
         <GreenBoxWrapperOne>
-          <LineSizeFive marginTop={"5vw"}>교육/문화</LineSizeFive>
+          <LineSizeFive marginTop={"2vw"}>교육/문화</LineSizeFive>
           <LineSizeSix marginTop={"2vw"}>
             <text>교육</text>
           </LineSizeSix>
@@ -249,7 +249,7 @@ const MobileContentsTwo = () => {
         </GreenBoxWrapperOne>
 
         <GreenBoxWrapperOne>
-          <LineSizeFive marginTop={"5vw"}>의료/복지</LineSizeFive>
+          <LineSizeFive marginTop={"2vw"}>의료/복지</LineSizeFive>
           <LineSizeSix marginTop={"2vw"}>
             <text>보건의료</text>
           </LineSizeSix>
@@ -258,7 +258,7 @@ const MobileContentsTwo = () => {
           </LineSizeSix>
         </GreenBoxWrapperOne>
         <GreenBoxWrapperOne>
-          <LineSizeFive marginTop={"5vw"}>재난/환경</LineSizeFive>
+          <LineSizeFive marginTop={"2vw"}>재난/환경</LineSizeFive>
           <LineSizeSix marginTop={"2vw"}>
             <text>재난안전</text>
           </LineSizeSix>

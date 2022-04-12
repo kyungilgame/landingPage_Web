@@ -157,7 +157,12 @@ const BottomCTABar = () => {
           alignItems: "center",
         }}
       >
-        <ApplyButton as={"a"} href={"https://forms.gle/bNkmRwr2wMwfHBZp7"}>
+        <ApplyButton
+          as={"a"}
+          href={
+            "https://docs.google.com/forms/d/e/1FAIpQLSfN_dak5rYSmtBjmTog0ccn7n-ZcBCWq22MMCujt72XqIlBvA/viewform"
+          }
+        >
           <ThirdLine style={{ marginLeft: "1vw", marginTop: "0.2vw" }}>
             수강신청하기{">>"}
           </ThirdLine>

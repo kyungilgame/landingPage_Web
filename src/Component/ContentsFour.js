@@ -151,7 +151,12 @@ const ContentsFour = () => {
           여러분을 위한 전화 안내 서포터를 통해 쉽고 빠르게 신청하세요!
         </text>
       </TextStyleThree>
-      <SupplyBox as={"a"} href={"https://forms.gle/bNkmRwr2wMwfHBZp7"}>
+      <SupplyBox
+        as={"a"}
+        href={
+          "https://docs.google.com/forms/d/e/1FAIpQLSfN_dak5rYSmtBjmTog0ccn7n-ZcBCWq22MMCujt72XqIlBvA/viewform"
+        }
+      >
         <text
           style={{
             fontSize: "1.7vw",
