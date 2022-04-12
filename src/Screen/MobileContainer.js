@@ -61,7 +61,7 @@ function MobileContainer() {
       <MobileContentsThree></MobileContentsThree>
       <MobileContentsFour></MobileContentsFour>
       <MobileVideo></MobileVideo>
-      <MobileContentsFive></MobileContentsFive>
+
       <MobileFAQBoard></MobileFAQBoard>
       <MobileFooter></MobileFooter>
       <MobileBottomCTABar></MobileBottomCTABar>

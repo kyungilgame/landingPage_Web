@@ -12,7 +12,7 @@ const FAQBoardContainer = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: white;
+  background-color: #f4f4f4;
 `;
 
 const LineSizeOne = styled.div`
@@ -60,16 +60,11 @@ const data = {
       content:
         "Coding이 처음이시군요. 질문에 답변 드리자면, 가능합니다. 최근 코딩 능력은 디지털 실무 능력을 가늠하는 중요한 요소가 되었습니다. 굴지의 대기업들도 신입 사원에게 1년 간 코딩 교육을 진행하고 있으며, 게임 분야에서는 코딩 과외를 직접 붙여줄 정도로 디지털 신입들의 코딩 역량은 초라한 수준입니다. 이는 교육 현장에서 10년~20년 된 오래된 수업 교안과 교재를 가지고 답습하듯 수업을 진행 하다보니 현장에서 필요로 하는 실무 능력을 갖추지 못했기 때문입니다. 코딩은 지식으로 배우는 것이 아니라 훈련하는 것 입니다. 본 과정은 '비 전공자'도 디지털 인재로의 기회를 열어주는 한국형 뉴딜 K-DIGITAL TRAINING 과정입니다. 일반적인 지식 습득이 아닌 기업에서 필요로 하는 문제 해결에 직접 동참하고 풀어 나감으로써 현장감 있는 디지털 실무인재로 성장하실 수 있습니다. 코딩과 친숙해지려면 프로그래밍적 사고가 습관화되어야 합니다. 때로는 문제를 뒤집어서 생각해보는 유연성도 필요하죠. 여러분은 이제 그 시작점에 서 있습니다. 검증된 커리큘럼과 철저한 코칭을 통해 고급개발자 취업에 성공하세요.",
     },
-    {
-      title: "기존 게임기획 과정과 어떤 차이가 있나요?",
-      content:
-        "유수의 게임 기업들이 게임을 기반으로 메타버스로의 확장을 본격적으로 준비하고 있는 시점에서, 본 과정은 게임 콘텐츠, 게임 시스템, 레벨 디자인, 밸런싱, 게임 시나리오 등 전통적인 게임 기획을 바탕으로 VR,AR,NFT,크리에이터 플랫폼 설계 등이 강화된 진정한 '메타버스 게임 기획자'의 양성을 목표로 강의와 실습, 프로젝트가 진행됩니다.",
-    },
   ],
 };
 
 const styles = {
-  // bgColor: 'white',
+  bgColor: "#f4f4f4",
   // titleTextColor: "blue",
   // titleTextSize: '48px',
   // rowTitleColor: "blue",
@@ -89,7 +84,7 @@ const FAQBoard = () => {
   return (
     <FAQBoardContainer>
       <LineSizeOne marginTop="7vw">FAQ</LineSizeOne>
-      <LineSizeThree>궁금한게 있으시다면 꼭 확인해보세요</LineSizeThree>
+
       <div style={{ marginBottom: "5vw" }}></div>
       <div style={{ width: "70vw" }}>
         <Faq

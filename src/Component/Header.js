@@ -27,7 +27,7 @@ const HeaderRight = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0d7377;
+  background-color: #051367;
   text-decoration: none;
 `;
 
@@ -44,9 +44,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <HeaderLeft></HeaderLeft>
-
-      <HeaderCenter>4차산업혁명을 선도하는 게임아카데미</HeaderCenter>
-
+      <HeaderCenter>경일게임아카데미</HeaderCenter>
       <HeaderRight as={"a"} href={"http://www.kiweb.or.kr/?view=pc"}>
         홈페이지 이동 {">"}
       </HeaderRight>

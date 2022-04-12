@@ -44,8 +44,8 @@ const ThirdLine = styled.div`
 const ApplyButton = styled.button`
   width: 65vw;
   height: 5vw;
-  background-color: #00ffd6;
-  border-color: #00ffd6;
+  background-color: #dff6ff;
+  border-color: #dff6ff;
   border-radius: 3vw;
   margin-top: 0.5vw;
   display: flex;
@@ -112,7 +112,7 @@ const MobileBottomCTABar = () => {
           }}
         >
           <FirstLine>
-            <text style={{ color: "#00ffd6" }}>수강료</text>
+            <text style={{ color: "#5D8BF4" }}>수강료</text>
           </FirstLine>
           <FirstLine>
             <text style={{ color: "white", marginLeft: "0.5vw" }}>
@@ -120,7 +120,7 @@ const MobileBottomCTABar = () => {
             </text>
           </FirstLine>
           <FirstLine>
-            <text style={{ color: "#00ffd6", marginLeft: "1.5vw" }}>0원!!</text>
+            <text style={{ color: "#5D8BF4", marginLeft: "1.5vw" }}>0원</text>
           </FirstLine>
         </div>
         <div
@@ -134,10 +134,10 @@ const MobileBottomCTABar = () => {
           }}
         >
           <SecondLine>
-            <text style={{ color: "#00ffd6" }}>수강신청 마감까지</text>
+            <text style={{ color: "white" }}>수강신청 마감까지</text>
           </SecondLine>
           <SecondLine>
-            <text style={{ color: "white", marginLeft: "0.5vw" }}>
+            <text style={{ color: "#2D31FA", marginLeft: "0.5vw" }}>
               {`${day}`}일
             </text>
             <Timer hoursMinSecs={hoursMinSecs}></Timer>

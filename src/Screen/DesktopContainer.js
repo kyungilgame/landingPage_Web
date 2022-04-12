@@ -66,7 +66,6 @@ function DesktopContainer({ open, setOpen, onOpenModal, onCloseModal }) {
       <TypoGraphy />
       <ContentsFour />
       <Video />
-      <ContentsFive />
       <FAQBoard />
       <Footer />
       <BottomCTABar />

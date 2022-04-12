@@ -10,7 +10,7 @@ const TypoGraphyContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #00ffd6;
+  background-color: #dff6ff;
 `;
 
 const LineText = styled.div`
@@ -39,13 +39,14 @@ const TypoGraphy = () => {
       >
         <Typed
           strings={[
-            "메타버스 건축가",
-            "아바타 플랫폼 기획자",
-            "XR콘텐츠 기획자",
-            "융합 복합 콘텐츠 기획자",
-            "맞춤형 게임 프로그래머",
-            "게임 기획자",
-            "메타버스 크리에이터",
+            "데이터 엔지니어",
+            "데이터 분석가",
+            "빅데이터 개발자",
+            "금융권 데이터 컨설턴트",
+            "빅데이터 거버넌스 컨설턴트",
+            "데이터 사이언티스트",
+            "데이터 랭글러",
+            "데이터 인터프리터",
           ]}
           typeSpeed={40}
           backSpeed={50}
@@ -59,9 +60,9 @@ const TypoGraphy = () => {
               height: "3.5vw",
               border: "solid",
               borderColor: "gray",
-              boxShadow: "0.1vw 0.1vw 0.1vw 0.1vw #00ffd6",
+              boxShadow: "0.1vw 0.1vw 0.1vw 0.1vw #5D8BF4",
               // paddingTop: "1vw", // placeholder 상하 위치 조절
-              fontSize: "3vw",
+              fontSize: "2.5vw",
             }}
           />
         </Typed>

@@ -24,7 +24,7 @@ const ContentsOneContainer = styled.div`
 const FirstLine = styled.div`
   font-family: "Pretendard-ExtraBold";
   font-size: 2vw;
-  color: #0d7377;
+  color: #f4f4f4;
 `;
 
 const SecondLine = styled.div`
@@ -49,7 +49,7 @@ const ContentsBox = styled.div`
 const FirstLineInnerBox = styled.div`
   font-family: "Pretendard-ExtraBold";
   font-size: 2vw;
-  color: #0d7377;
+  color: #051367;
   margin-top: 2.5vw;
   margin-bottom: 1vw;
 `;
@@ -162,26 +162,26 @@ const ContentsOne = ({ open, setOpen, onOpenModal, onCloseModal }) => {
           </div>
           <ImageContainerOne src={BlackLogo}></ImageContainerOne>
         </div>
-        <FirstLine>게임/컨텐츠/뉴미디어/NFT를 선점하라!</FirstLine>
-        <SecondLine>'메타버스 월드'</SecondLine>
-        <SecondLine>게임 기획자 부트캠프</SecondLine>
+        <FirstLine>Java/Python 기반 공공데이터 sw 엔지니어</FirstLine>
+        <SecondLine>공공데이터</SecondLine>
+        <SecondLine>웹 개발자 부트캠프</SecondLine>
         <ContentsBox>
-          <FirstLineInnerBox>메타버스 게임기획 부트캠프 1기</FirstLineInnerBox>
+          <FirstLineInnerBox>KGA 웹개발 부트캠프 3기</FirstLineInnerBox>
           <InnerContentsBox
             title={"기간"}
-            duration={"2022.04.18 ~ 2022.12.27"}
+            duration={"2022.05.16 – 2022.12.14"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"시간"}
-            duration={"AM 09:00 ~ PM 18:00"}
+            duration={"PM 15:30 ~ PM 22:00"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"모집마감"}
-            duration={"2022.04.15"}
+            duration={"2022.05.10"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"합격자 발표일"}
-            duration={"2022.04.15"}
+            duration={"2022.05.13"}
           ></InnerContentsBox>
           <LastLineInnerBox
             onClick={() => {
@@ -207,13 +207,13 @@ const ContentsOne = ({ open, setOpen, onOpenModal, onCloseModal }) => {
               marginTop: "0.5vw",
             }}
           >
-            해당 부트캠프는 K-Digital Training 과정으로
+            해당 부트캠프는 국가기간전략훈련 과정으로{` `}
           </text>
           <text
             style={{
               fontSize: "1vw",
               fontFamily: "Pretendard-Bold",
-              color: "#353535",
+              color: "#101010",
               marginTop: "0.5vw",
             }}
           >

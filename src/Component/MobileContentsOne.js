@@ -20,7 +20,7 @@ const ContentsOneContainer = styled.div`
 const FirstLine = styled.div`
   font-family: "Pretendard-ExtraBold";
   font-size: 2.5vw;
-  color: #0d7377;
+  color: #f4f4f4;
   margin-top: 4vw;
 `;
 
@@ -46,7 +46,7 @@ const ContentsBox = styled.div`
 const FirstLineInnerBox = styled.div`
   font-family: "Pretendard-ExtraBold";
   font-size: 5vw;
-  color: #0d7377;
+  color: #051367;
   margin-top: 4vw;
   margin-bottom: 1vw;
 `;
@@ -100,26 +100,26 @@ const MobileContentsOne = () => {
   return (
     <>
       <ContentsOneContainer>
-        <FirstLine>게임/컨텐츠/뉴미디어/NFT를 선점하라!</FirstLine>
-        <SecondLine>'메타버스 월드'</SecondLine>
-        <SecondLine>게임 기획자 부트캠프</SecondLine>
+        <FirstLine>Java/Python 기반 공공데이터 sw 엔지니어</FirstLine>
+        <SecondLine>공공데이터</SecondLine>
+        <SecondLine>웹 개발자 부트캠프</SecondLine>
         <ContentsBox>
-          <FirstLineInnerBox>메타버스 게임기획 부트캠프 1기</FirstLineInnerBox>
+          <FirstLineInnerBox>KGA 웹개발 부트캠프 3기</FirstLineInnerBox>
           <InnerContentsBox
             title={"기간"}
-            duration={"2022.04.18 ~ 2022.12.27"}
+            duration={"2022.05.16 – 2022.12.14"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"시간"}
-            duration={"AM 09:00 ~ PM 18:00"}
+            duration={"PM 15:30 ~ PM 22:00"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"모집마감"}
-            duration={"2022.04.15"}
+            duration={"2022.05.10"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"합격자 발표일"}
-            duration={"2022.04.15"}
+            duration={"2022.05.13"}
           ></InnerContentsBox>
           <LastLineInnerBox
             as={"a"}
@@ -131,12 +131,12 @@ const MobileContentsOne = () => {
                 color: "white",
               }}
             >
-              부트캠프 36기
+              부트캠프 3기
             </text>
             <text
               style={{
                 fontSize: "4vw",
-                color: "#00ffd6",
+                color: "white",
                 marginLeft: "0.5vw",
               }}
             >

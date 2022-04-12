@@ -22,7 +22,7 @@ const HeaderRight = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0d7377;
+  background-color: #051367;
   text-decoration: none;
   margin-right: 3vw;
 `;

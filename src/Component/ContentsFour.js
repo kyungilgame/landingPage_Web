@@ -62,7 +62,7 @@ const SupplyBox = styled.button`
   margin-top: 2vw;
   width: 30vw;
   height: 3.5vw;
-  background-color: #00ffd6;
+  background-color: #dff6ff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -83,7 +83,7 @@ const ContentsFour = () => {
   return (
     <ContentsFourContainer>
       <TextStyleOne marginTop={"4vw"}>
-        <text style={{ color: "#00ffd6" }}>아래의 자격을 갖췄다면 지원</text>
+        <text style={{ color: "white" }}>아래의 자격을 갖췄다면 지원</text>
         <text style={{ color: "white" }}>하세요</text>
       </TextStyleOne>
       <div
@@ -97,7 +97,7 @@ const ContentsFour = () => {
       >
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#00ffd6" }}>국민내일배움카드</text>
+            <text style={{ color: "#5D8BF4" }}>국민내일배움카드</text>
           </TextStyleTwo>
           <TextStyleTwo>
             <text style={{ color: "white" }}>발급이 가능한 분</text>
@@ -105,7 +105,7 @@ const ContentsFour = () => {
         </BlackBox>
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#00ffd6" }}>오전 9시부터 오후 6시까지</text>
+            <text style={{ color: "#5D8BF4" }}>오전 9시부터 오후 6시까지</text>
           </TextStyleTwo>
           <TextStyleTwo>
             <text style={{ color: "white" }}>풀타임 학습이 가능한 분</text>
@@ -123,7 +123,7 @@ const ContentsFour = () => {
       >
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#00ffd6" }}>흥미가 아니라</text>
+            <text style={{ color: "#5D8BF4" }}>흥미가 아니라</text>
           </TextStyleTwo>
           <TextStyleTwo>
             <text style={{ color: "white" }}>취업을 위해 전력질주 하실 분</text>
@@ -131,7 +131,7 @@ const ContentsFour = () => {
         </BlackBox>
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#00ffd6" }}>지금이 마지막이라는</text>
+            <text style={{ color: "#5D8BF4" }}>지금이 마지막이라는</text>
           </TextStyleTwo>
           <TextStyleTwo>
             <text style={{ color: "white" }}>절박감으로 도전하실 분</text>
@@ -147,7 +147,7 @@ const ContentsFour = () => {
         </text>
       </TextStyleFour>
       <TextStyleThree>
-        <text style={{ color: "#00ffd6" }}>
+        <text style={{ color: "#DFF6FF" }}>
           여러분을 위한 전화 안내 서포터를 통해 쉽고 빠르게 신청하세요!
         </text>
       </TextStyleThree>

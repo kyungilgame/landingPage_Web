@@ -5,10 +5,11 @@ import Logo from "../Image/logo.png";
 import MinistryImage from "../Image/MinistryImage.png";
 import ShortLine from "../Image/ShortLine.png";
 import LongLine from "../Image/LongLine.png";
+import Companys from "../Image/Companys.png";
 
 const ContentsTwoContainer = styled.div`
   width: 100%;
-  height: 160vw;
+  height: 190vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -128,27 +129,26 @@ const MiddleLineContainer = styled.div`
 const GreenBoxContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 25vw;
   margin-top: 5vw;
 `;
 
 const GreenBoxWrapperOne = styled.div`
-  width: 25vw;
+  width: 15vw;
   height: 20vw;
   border: solid;
   border-width: thin;
   border-radius: 3vw;
-  border-color: #00ffd6;
+  border-color: #5d8bf4;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 3vw;
-  background-size: 6vw 1.5vw;
-  background-image: url(${ShortLine});
+  background-size: 9vw 0.5vw;
+  background-image: url(${LongLine});
   background-position: right 50% bottom 66%;
   background-repeat: no-repeat;
 `;
@@ -182,18 +182,23 @@ const ContentsBoxContainer = styled.div`
 `;
 
 const BlackBoxWrapper = styled.div`
-  width: 26vw;
-  height: 6vw;
-  background-color: #101010;
+  width: 100%;
+  height: 15vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  ${({ src }) => {
+    return src ? `background-image: url(${src})` : null;
+  }}
 `;
 
 const LastContentsWrapper = styled.div`
   width: 100%;
-  height: 45vw;
+  height: 50vw;
   background-color: #101010;
   display: flex;
   flex-direction: column;
@@ -215,9 +220,9 @@ const ContentsTwo = () => {
   return (
     <ContentsTwoContainer>
       <LineSizeOne marginTop={"5vw"}>
-        <text style={{ color: "#0d7377" }}>왜, 메타버스인가요?🤔</text>
+        <text style={{ color: "#051367" }}>공공데이터란?</text>
       </LineSizeOne>
-      <LineSizeOnePlus marginTop={"3vw"}>
+      <LineSizeOnePlus marginTop={"3vw"} style={{ fontSize: "2.5vw" }}>
         <div
           style={{
             display: "flex",
@@ -226,7 +231,19 @@ const ContentsTwo = () => {
             alignItems: "center",
           }}
         >
-          <text>넷마블 메타버스엔터테인먼트, 카카오엔터와 파트너십 구축</text>
+          <text>공공기관이 생성하거나 관리하는 자료 또는 정보</text>
+        </div>
+      </LineSizeOnePlus>
+      <LineSizeOnePlus style={{ marginTop: "3vw" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <text>기관이 업무를 수행하며 만들어낸 </text>
         </div>
       </LineSizeOnePlus>
       <LineSizeOnePlus>
@@ -238,42 +255,12 @@ const ContentsTwo = () => {
             alignItems: "center",
           }}
         >
-          <text>
-            [단독] 넥슨도 '메타버스 스튜디오' 가세…YG·네이버 합작사에 150억 투자
-          </text>
+          <text>다양한 형태의 모든 자료 또는 정보</text>
         </div>
       </LineSizeOnePlus>
-      <LineSizeOnePlus>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <text>블리자드 인수한 MS, 종착점은 '메타버스'</text>
-        </div>
-      </LineSizeOnePlus>
-      <LineSizeOnePlus>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <text>엔씨소프트, 新 전성기 위한 '메타버스' 세계 구축 박차</text>
-        </div>
-      </LineSizeOnePlus>
-      <LineSizeOne marginTop={"4vw"}>
-        게임 업계의 전통 강자, 검증된 명가 KGA
-      </LineSizeOne>
+      <LineSizeOne marginTop={"8vw"}>IT 취업의 전통 강자 KGA</LineSizeOne>
       <LineSizeOne>
-        <text style={{ color: "#0d7377" }}>
-          최고의 게임 기획자로 만들어 드립니다. 믿고 따라오세요!🚀
-        </text>
+        <text style={{ color: "#051367" }}>믿고 따라오세요🚀</text>
       </LineSizeOne>
       <div
         style={{
@@ -295,121 +282,108 @@ const ContentsTwo = () => {
       </div>
       <MiddleLineContainer>
         <div
-          style={{ width: "30%", height: "0.2vw", backgroundColor: "#101010" }}
+          style={{ width: "35%", height: "0.2vw", backgroundColor: "#5D8BF4" }}
         ></div>
         <LineSizeOne>
-          <text>메타버스의 </text>
-          <text style={{ color: "#0d7377" }}>초월적 범용성!</text>
+          <text style={{ color: "#051367" }}>공공데이터 적용 분야</text>
         </LineSizeOne>
         <div
-          style={{ width: "30%", height: "0.2vw", backgroundColor: "#101010" }}
+          style={{ width: "35%", height: "0.2vw", backgroundColor: "#5D8BF4" }}
         ></div>
       </MiddleLineContainer>
       <GreenBoxContainer>
         <GreenBoxWrapperOne>
-          <LineSizeFive marginTop={"5vw"}>게임</LineSizeFive>
-          <LineSizeSix marginTop={"3vw"}>
-            <text>실감 기술을 통해</text>
+          <LineSizeFive marginTop={"5vw"}>인구/생활</LineSizeFive>
+          <LineSizeSix marginTop={"2vw"}>
+            <text>산업고용</text>
           </LineSizeSix>
           <LineSizeSix>
-            <text>몰입감이 극대화되는</text>
+            <text>식품건강</text>
           </LineSizeSix>
           <LineSizeSix>
-            <text>게임 컨텐츠 제작</text>
+            <text>교통물류</text>
+          </LineSizeSix>
+          <LineSizeSix>
+            <text>통일외교</text>
+          </LineSizeSix>
+          <LineSizeSix>
+            <text>법률</text>
           </LineSizeSix>
         </GreenBoxWrapperOne>
-        <GreenBoxWrapperTwo>
-          <LineSizeFive marginTop={"5vw"}>대체/확장/초월 자아</LineSizeFive>
-          <LineSizeSix marginTop={"3vw"}>
-            <text>아바타를 통해 </text>
+        <GreenBoxWrapperOne>
+          <LineSizeFive marginTop={"5vw"}>경제/공공</LineSizeFive>
+          <LineSizeSix marginTop={"2vw"}>
+            <text>산업고용</text>
           </LineSizeSix>
           <LineSizeSix>
-            <text>현실의 경험을 확장하고,</text>
+            <text>재정금융</text>
           </LineSizeSix>
           <LineSizeSix>
-            <text>시공간의 제약을 넘어</text>
+            <text>공공행정</text>
           </LineSizeSix>
           <LineSizeSix>
-            <text>협업과 소통</text>
+            <text>농축수산</text>
           </LineSizeSix>
-        </GreenBoxWrapperTwo>
-        <GreenBoxWrapperTwo>
-          <LineSizeFive marginTop={"5vw"}>블록체인과 NFT</LineSizeFive>
+        </GreenBoxWrapperOne>
+        <GreenBoxWrapperOne>
+          <LineSizeFive marginTop={"5vw"}>교육/문화</LineSizeFive>
+          <LineSizeSix marginTop={"2vw"}>
+            <text>교육</text>
+          </LineSizeSix>
+          <LineSizeSix>
+            <text>문화관광</text>
+          </LineSizeSix>
+          <LineSizeSix>
+            <text>과학기술</text>
+          </LineSizeSix>
+        </GreenBoxWrapperOne>
 
-          <LineSizeSix marginTop={"3vw"}>
-            <text>디지털 자산의 생산과 유통,</text>
+        <GreenBoxWrapperOne>
+          <LineSizeFive marginTop={"5vw"}>의료/복지</LineSizeFive>
+          <LineSizeSix marginTop={"2vw"}>
+            <text>보건의료</text>
           </LineSizeSix>
           <LineSizeSix>
-            <text>플랫폼 간 상호 연동의 형태로 진화</text>
+            <text>사회복지</text>
           </LineSizeSix>
-        </GreenBoxWrapperTwo>
+        </GreenBoxWrapperOne>
+        <GreenBoxWrapperOne>
+          <LineSizeFive marginTop={"5vw"}>재난/환경</LineSizeFive>
+          <LineSizeSix marginTop={"2vw"}>
+            <text>재난안전</text>
+          </LineSizeSix>
+          <LineSizeSix>
+            <text>국토관리</text>
+          </LineSizeSix>
+          <LineSizeSix>
+            <text>환경기상</text>
+          </LineSizeSix>
+        </GreenBoxWrapperOne>
       </GreenBoxContainer>
       <LineSizeOne marginTop={"10vw"}>
-        <text style={{ color: "#0d7377" }}>누가 들으면 좋나요?</text>
+        <text style={{ color: "#051367" }}>주목받는 스타트업의 공통점은? </text>
       </LineSizeOne>
       <LineSizeOne>
-        <text>재미있는 일을 하고 싶은 사람!</text>
+        <text>공공데이터와 융합한다는 것!</text>
       </LineSizeOne>
       <ContentsBoxContainer>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            width: "55vw",
-            justifyContent: "space-around",
-          }}
-        >
-          <BlackBoxWrapper>
-            <LineSizeTwo>
-              <text style={{ color: "#00ffd6" }}>
-                매력적인 세계관을 구축하는 브랜드 마케터
-              </text>
-            </LineSizeTwo>
-          </BlackBoxWrapper>
-          <BlackBoxWrapper>
-            <LineSizeTwo>
-              <text style={{ color: "#00ffd6" }}>
-                스토리 기반의 미디어 컨텐츠 기획자
-              </text>
-            </LineSizeTwo>
-          </BlackBoxWrapper>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            width: "55vw",
-            justifyContent: "space-around",
-            marginTop: "2vw",
-          }}
-        >
-          <BlackBoxWrapper>
-            <LineSizeTwo>
-              <text style={{ color: "#00ffd6" }}>
-                게임, 영화, 시각효과, 확장현실,
-              </text>
-            </LineSizeTwo>
-            <LineSizeTwo>
-              <text style={{ color: "#00ffd6" }}>
-                테마파크의 실감형 컨텐츠 기획자
-              </text>
-            </LineSizeTwo>
-          </BlackBoxWrapper>
-          <BlackBoxWrapper>
-            <LineSizeTwo>
-              <text style={{ color: "#00ffd6" }}>
-                온오프라인 컨텐츠를 결합하는 NFT 기획자
-              </text>
-            </LineSizeTwo>
-          </BlackBoxWrapper>
-        </div>
+        <BlackBoxWrapper src={Companys}></BlackBoxWrapper>
       </ContentsBoxContainer>
+      <LineSizeOne style={{ marginTop: "5vw" }}>
+        <text style={{ color: "#2D31FA" }}>왜 Java와 Python인가요? </text>
+      </LineSizeOne>
+      <LineSizeOne style={{ marginTop: "4vw" }}>
+        <text>개발자 수요가 제일 많은 분야는 </text>
+      </LineSizeOne>
+      <LineSizeOne style={{ marginBottom: "10vw" }}>
+        <text>아직 ‘Java’입니다</text>
+      </LineSizeOne>
       <LastContentsWrapper>
         <div
           style={{
             width: "43vw",
             height: "3vw",
-            backgroundColor: "#00ffd6",
+            backgroundColor: "#DFF6FF",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -417,7 +391,7 @@ const ContentsTwo = () => {
           }}
         >
           <LineSizeOne>
-            <text style={{ color: "black" }}>
+            <text style={{ color: "DFF6FF" }}>
               여러분의 취업준비는 안녕하십니까?
             </text>
           </LineSizeOne>
@@ -428,7 +402,7 @@ const ContentsTwo = () => {
           </text>
         </LineSizeThree>
         <LineSizeThree>
-          <text style={{ color: "#00ffd6" }}>
+          <text style={{ color: "#DFF6FF" }}>
             이제 똑똑하고 독하게 제대로 시작하세요!
           </text>
         </LineSizeThree>
@@ -455,15 +429,13 @@ const ContentsTwo = () => {
           </LastContentsInnerBox>
           <LastContentsInnerBox>
             <LineSizeFour>
-              <text style={{ color: "#101010" }}>TREND</text>
+              <text style={{ color: "#101010" }}>!!!!!!!</text>
             </LineSizeFour>
             <LineSizeSeven marginTop={"1vw"}>
-              <text style={{ color: "#101010" }}>
-                2022년 가장 트렌디한 기술
-              </text>
+              <text style={{ color: "#101010" }}>!!!!!!!!!!!!!!!!!1</text>
             </LineSizeSeven>
             <LineSizeSeven>
-              <text style={{ color: "#101010" }}>'메타버스'</text>
+              <text style={{ color: "#101010" }}>!!!!!!!</text>
             </LineSizeSeven>
           </LastContentsInnerBox>
           <LastContentsInnerBox>

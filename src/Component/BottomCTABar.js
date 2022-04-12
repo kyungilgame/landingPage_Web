@@ -17,7 +17,7 @@ const ContentsOneContainer = styled.div`
   align-items: center;
   background-color: #101010;
   border-radius: 1vw;
-  background-size: 11vw 1.3vw;
+  background-size: 9vw 1.3vw;
   background-image: url(${WhiteArrow});
   background-position: right 85% bottom 78%;
   background-repeat: no-repeat;
@@ -44,8 +44,8 @@ const ThirdLine = styled.div`
 const ApplyButton = styled.button`
   width: 12vw;
   height: 2.5vw;
-  background-color: #00ffd6;
-  border-color: #00ffd6;
+  background-color: #dff6ff;
+  border-color: #dff6ff;
   border-radius: 1vw;
   margin-top: 0.5vw;
   cursor: pointer;
@@ -73,7 +73,7 @@ const XImageRight = styled.div`
   transform: rotate(-45deg);
 `;
 
-const dday = new Date("April 15, 2022, 0:00:00").getTime();
+const dday = new Date("May 10, 2022, 0:00:00").getTime();
 
 const today = new Date().getTime(); // 밀리 초 단위
 const gap = dday - today;
@@ -108,15 +108,15 @@ const BottomCTABar = () => {
           }}
         >
           <FirstLine>
-            <text style={{ color: "#00ffd6" }}>수강료</text>
+            <text style={{ color: "#5D8BF4" }}>수강료</text>
           </FirstLine>
           <FirstLine>
             <text style={{ color: "white", marginLeft: "0.5vw" }}>
-              10,826,350원
+              6,191,320원
             </text>
           </FirstLine>
           <FirstLine>
-            <text style={{ color: "#00ffd6", marginLeft: "1.5vw" }}>0원!!</text>
+            <text style={{ color: "#5D8BF4", marginLeft: "1.5vw" }}>0원</text>
           </FirstLine>
         </div>
         <div
@@ -129,10 +129,10 @@ const BottomCTABar = () => {
           }}
         >
           <SecondLine>
-            <text style={{ color: "#00ffd6" }}>수강신청 마감까지</text>
+            <text style={{ color: "white" }}>수강신청 마감까지</text>
           </SecondLine>
           <SecondLine>
-            <text style={{ color: "white", marginLeft: "0.5vw" }}>
+            <text style={{ color: "#2D31FA", marginLeft: "0.5vw" }}>
               {`${day}`}일
             </text>
             <Timer hoursMinSecs={hoursMinSecs}></Timer>
@@ -148,8 +148,8 @@ const BottomCTABar = () => {
         style={{
           width: "12vw",
           height: "2.5vw",
-          backgroundColor: "#00ffd6",
-          borderColor: "#00ffd6",
+          backgroundColor: "#DFF6FF",
+          borderColor: "#DFF6FF",
           borderRadius: "1vw",
           marginTop: "0.5vw",
           display: "flex",
