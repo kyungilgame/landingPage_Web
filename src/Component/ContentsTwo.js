@@ -9,7 +9,7 @@ import Companys from "../Image/Companys.png";
 
 const ContentsTwoContainer = styled.div`
   width: 100%;
-  height: 190vw;
+  height: 193vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -50,7 +50,7 @@ const LineSizeThree = styled.div`
 
 const LineSizeFour = styled.div`
   font-family: "Pretendard-ExtraBold";
-  font-size: 2.3vw;
+  font-size: 2vw;
   ${({ marginTop }) => {
     return marginTop ? `margin-top: ${marginTop}` : null;
   }}
@@ -74,7 +74,7 @@ const LineSizeSix = styled.div`
 
 const LineSizeSeven = styled.div`
   font-family: "Pretendard-Light";
-  font-size: 1.2vw;
+  font-size: 1vw;
   ${({ marginTop }) => {
     return marginTop ? `margin-top: ${marginTop}` : null;
   }}
@@ -198,7 +198,7 @@ const BlackBoxWrapper = styled.div`
 
 const LastContentsWrapper = styled.div`
   width: 100%;
-  height: 50vw;
+  height: 60vw;
   background-color: #101010;
   display: flex;
   flex-direction: column;
@@ -207,7 +207,7 @@ const LastContentsWrapper = styled.div`
 `;
 
 const LastContentsInnerBox = styled.div`
-  width: 20vw;
+  width: 25vw;
   height: 100%;
   background-color: #f4f4f4;
   display: flex;
@@ -381,72 +381,99 @@ const ContentsTwo = () => {
       <LastContentsWrapper>
         <div
           style={{
-            width: "43vw",
+            width: "30vw",
             height: "3vw",
             backgroundColor: "#DFF6FF",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: "6vw",
+            marginTop: "4vw",
           }}
         >
           <LineSizeOne>
-            <text style={{ color: "DFF6FF" }}>
-              여러분의 취업준비는 안녕하십니까?
-            </text>
+            <text style={{ color: "DFF6FF" }}>KGA 웹개발 과정 3기</text>
           </LineSizeOne>
         </div>
         <LineSizeThree marginTop={"2vw"}>
-          <text style={{ color: "white" }}>
-            막연함의 끝, 완전한 확신의 준비
-          </text>
+          <text style={{ color: "white" }}>직전기수 취업률 72.2%</text>
         </LineSizeThree>
         <LineSizeThree>
-          <text style={{ color: "#DFF6FF" }}>
-            이제 똑똑하고 독하게 제대로 시작하세요!
-          </text>
+          <text style={{ color: "#DFF6FF" }}>수강생 평균 만족도 88점</text>
         </LineSizeThree>
         <div
           style={{
             display: "flex",
             flexDirection: "row",
             justifyContent: "space-around",
-            width: "65vw",
+            width: "55vw",
             height: "11vw",
             marginTop: "2vw",
           }}
         >
           <LastContentsInnerBox>
             <LineSizeFour>
-              <text style={{ color: "#101010" }}>FOCUS</text>
+              <text style={{ color: "#101010" }}>게임, 응용 SW 프로그래밍</text>
+            </LineSizeFour>
+            <LineSizeFour>
+              <text style={{ color: "#101010" }}>
+                분야에 특화된 우수훈련기관
+              </text>
+            </LineSizeFour>
+          </LastContentsInnerBox>
+          <LastContentsInnerBox>
+            <LineSizeFour>
+              <text style={{ color: "#101010" }}>현업 위주의 과정 설계</text>
             </LineSizeFour>
             <LineSizeSeven marginTop={"1vw"}>
-              <text style={{ color: "#101010" }}>취업까지 끝장내는</text>
+              <text style={{ color: "#101010" }}>
+                프로그래밍 언어 기초부터 현업에서 쓰이는 다양하고
+              </text>
             </LineSizeSeven>
             <LineSizeSeven>
-              <text style={{ color: "#101010" }}>개발자 취업 스터디</text>
+              <text style={{ color: "#101010" }}>
+                통합적인 개발 언어, 라이브러리, 프레임워크 훈련
+              </text>
+            </LineSizeSeven>
+          </LastContentsInnerBox>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-around",
+            width: "55vw",
+            height: "11vw",
+            marginTop: "2vw",
+          }}
+        >
+          <LastContentsInnerBox>
+            <LineSizeFour>
+              <text style={{ color: "#101010" }}>
+                담임제 운영으로 학생 집중관리
+              </text>
+            </LineSizeFour>
+            <LineSizeSeven marginTop={"1vw"}>
+              <text style={{ color: "#101010" }}>
+                보충학습 지도, 개인상담으로
+              </text>
+            </LineSizeSeven>
+            <LineSizeSeven>
+              <text style={{ color: "#101010" }}>동기부여 및 자존감 향상</text>
             </LineSizeSeven>
           </LastContentsInnerBox>
           <LastContentsInnerBox>
             <LineSizeFour>
-              <text style={{ color: "#101010" }}>!!!!!!!</text>
+              <text style={{ color: "#101010" }}>
+                체계화된 취업 지원 프로세스
+              </text>
             </LineSizeFour>
             <LineSizeSeven marginTop={"1vw"}>
-              <text style={{ color: "#101010" }}>!!!!!!!!!!!!!!!!!1</text>
+              <text style={{ color: "#101010" }}>
+                일별, 주차별 업체 지원, 면접, 취업 현황 추적을
+              </text>
             </LineSizeSeven>
             <LineSizeSeven>
-              <text style={{ color: "#101010" }}>!!!!!!!</text>
-            </LineSizeSeven>
-          </LastContentsInnerBox>
-          <LastContentsInnerBox>
-            <LineSizeFour>
-              <text style={{ color: "#101010" }}>SECRET</text>
-            </LineSizeFour>
-            <LineSizeSeven marginTop={"1vw"}>
-              <text style={{ color: "#101010" }}>단기간 취업 비결 공개</text>
-            </LineSizeSeven>
-            <LineSizeSeven>
-              <text style={{ color: "#101010" }}>면접 족보까지?</text>
+              <text style={{ color: "#101010" }}>통한 체계적인 관리</text>
             </LineSizeSeven>
           </LastContentsInnerBox>
         </div>

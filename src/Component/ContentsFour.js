@@ -5,7 +5,7 @@ import ArrowImage from "../Image/ArrowBlack.png";
 
 const ContentsFourContainer = styled.div`
   width: 100%;
-  height: 53vw;
+  height: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -105,10 +105,10 @@ const ContentsFour = () => {
         </BlackBox>
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#5D8BF4" }}>오전 9시부터 오후 6시까지</text>
+            <text style={{ color: "#5D8BF4" }}>15시 30분부터 22시까지</text>
           </TextStyleTwo>
           <TextStyleTwo>
-            <text style={{ color: "white" }}>풀타임 학습이 가능한 분</text>
+            <text style={{ color: "white" }}>학습이 가능한 분</text>
           </TextStyleTwo>
         </BlackBox>
       </div>
@@ -141,15 +141,9 @@ const ContentsFour = () => {
       <TextStyleFour marginTop={"3vw"}>
         <text style={{ color: "white" }}>국민내일배움카드가 처음이신가요?</text>
       </TextStyleFour>
-      <TextStyleFour>
-        <text style={{ color: "white" }}>
-          걱정하지 마세요! 1분 만에 쉽고 빠르게 신청할 수 있습니다
-        </text>
-      </TextStyleFour>
+
       <TextStyleThree>
-        <text style={{ color: "#DFF6FF" }}>
-          여러분을 위한 전화 안내 서포터를 통해 쉽고 빠르게 신청하세요!
-        </text>
+        <text style={{ color: "#DFF6FF" }}>쉽고 빠르게 신청하세요!</text>
       </TextStyleThree>
       <SupplyBox as={"a"} href={"https://forms.gle/W5ndKUxNeXrbagQv9"}>
         <text

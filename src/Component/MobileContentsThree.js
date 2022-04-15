@@ -4,7 +4,7 @@ import "../styles/css/App.css";
 
 const ContentsThreeContainer = styled.div`
   width: 100%;
-  height: 90vw;
+  height: 70vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -206,11 +206,9 @@ const MobileContentsThree = () => {
   const [sectionState, setSectionState] = useState(1);
   return (
     <ContentsThreeContainer>
-      <LineTextOne marginTop={"5vw"}>불필요한 내용은 빼고</LineTextOne>
-      <LineTextOne>
-        <text style={{ color: "#2D31FA" }}>취업에 꼭 필요한 내용</text>으로
+      <LineTextOne marginTop={"5vw"}>
+        KGA 웹개발 3기 <text style={{ color: "#2D31FA" }}>커리큘럼</text>
       </LineTextOne>
-      <LineTextOne> 채웠습니다</LineTextOne>
       <div
         style={{
           width: "100%",
