@@ -100,11 +100,11 @@ const MobileContentsOne = () => {
   return (
     <>
       <ContentsOneContainer>
-        <FirstLine>Java/Python 기반 공공데이터 sw 엔지니어</FirstLine>
+        <FirstLine>Java/Python 기반 공공데이터 SW 엔지니어</FirstLine>
         <SecondLine>공공데이터</SecondLine>
-        <SecondLine>웹 개발자 부트캠프</SecondLine>
+        <SecondLine>웹 개발자 양성과정</SecondLine>
         <ContentsBox>
-          <FirstLineInnerBox>KGA 웹개발 부트캠프 3기</FirstLineInnerBox>
+          <FirstLineInnerBox>KGA 공공데이터 웹개발 3기</FirstLineInnerBox>
           <InnerContentsBox
             title={"기간"}
             duration={"2022.05.16 – 2022.12.14"}

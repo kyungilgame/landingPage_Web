@@ -158,7 +158,7 @@ const MobileContentsTwo = () => {
         <text style={{ color: "#051367" }}>공공데이터란?</text>
       </LineSizeOne>
       <LineSizeTwo marginTop={"3vw"}>
-        <text>공공기관이 생성하거나 관리하는 자료 또는 정보</text>
+        <text>공공기관이 생성하거나 관리하는 자료나 정보</text>
       </LineSizeTwo>
       <LineSizeTwo>
         <text>기관이 업무를 수행하며 만들어낸</text>
@@ -204,10 +204,8 @@ const MobileContentsTwo = () => {
       <GreenBoxContainer>
         <GreenBoxWrapperOne>
           <LineSizeFive marginTop={"2vw"}>인구/생활</LineSizeFive>
+
           <LineSizeSix marginTop={"2vw"}>
-            <text>산업고용</text>
-          </LineSizeSix>
-          <LineSizeSix>
             <text>식품건강</text>
           </LineSizeSix>
           <LineSizeSix>

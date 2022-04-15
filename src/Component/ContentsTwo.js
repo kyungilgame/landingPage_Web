@@ -9,7 +9,7 @@ import Companys from "../Image/Companys.png";
 
 const ContentsTwoContainer = styled.div`
   width: 100%;
-  height: 193vw;
+  height: 197vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -33,7 +33,7 @@ const LineSizeOnePlus = styled.div`
 `;
 
 const LineSizeTwo = styled.div`
-  font-family: "Pretendard-ExtraBold";
+  font-family: "Pretendard-Regular";
   font-size: 1.5vw;
   ${({ marginTop }) => {
     return marginTop ? `margin-top: ${marginTop}` : null;
@@ -231,7 +231,7 @@ const ContentsTwo = () => {
             alignItems: "center",
           }}
         >
-          <text>공공기관이 생성하거나 관리하는 자료 또는 정보</text>
+          <text>공공기관이 생성하거나 관리하는 자료나 정보</text>
         </div>
       </LineSizeOnePlus>
       <LineSizeOnePlus style={{ marginTop: "3vw" }}>
@@ -294,10 +294,8 @@ const ContentsTwo = () => {
       <GreenBoxContainer>
         <GreenBoxWrapperOne>
           <LineSizeFive marginTop={"5vw"}>인구/생활</LineSizeFive>
+
           <LineSizeSix marginTop={"2vw"}>
-            <text>산업고용</text>
-          </LineSizeSix>
-          <LineSizeSix>
             <text>식품건강</text>
           </LineSizeSix>
           <LineSizeSix>
@@ -363,7 +361,7 @@ const ContentsTwo = () => {
       <LineSizeOne marginTop={"10vw"}>
         <text style={{ color: "#051367" }}>주목받는 스타트업의 공통점은? </text>
       </LineSizeOne>
-      <LineSizeOne>
+      <LineSizeOne style={{ marginTop: "3vw" }}>
         <text>공공데이터와 융합한다는 것!</text>
       </LineSizeOne>
       <ContentsBoxContainer>
@@ -375,13 +373,22 @@ const ContentsTwo = () => {
       <LineSizeOne style={{ marginTop: "4vw" }}>
         <text>개발자 수요가 제일 많은 분야는 </text>
       </LineSizeOne>
-      <LineSizeOne style={{ marginBottom: "10vw" }}>
+      <LineSizeOne style={{ marginBottom: "4vw" }}>
         <text>아직 ‘Java’입니다</text>
       </LineSizeOne>
+      <LineSizeTwo>
+        가장 많은 개발자 수요는 웹/앱 풀스택 개발과 빅데이터!
+      </LineSizeTwo>
+      <LineSizeTwo>
+        국내 개발자 구인의 시작은 Java와 Python이었습니다.
+      </LineSizeTwo>
+      <LineSizeTwo style={{ marginBottom: "7vw" }}>
+        공공사업 개발 시 사용하는 공공 프레임은 모두 자바로 구동됩니다.
+      </LineSizeTwo>
       <LastContentsWrapper>
         <div
           style={{
-            width: "30vw",
+            width: "37vw",
             height: "3vw",
             backgroundColor: "#DFF6FF",
             display: "flex",
@@ -391,7 +398,7 @@ const ContentsTwo = () => {
           }}
         >
           <LineSizeOne>
-            <text style={{ color: "DFF6FF" }}>KGA 웹개발 과정 3기</text>
+            <text style={{ color: "DFF6FF" }}>KGA 웹개발자 양성과정 3기</text>
           </LineSizeOne>
         </div>
         <LineSizeThree marginTop={"2vw"}>

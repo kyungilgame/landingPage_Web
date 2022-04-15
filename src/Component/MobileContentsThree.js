@@ -207,7 +207,8 @@ const MobileContentsThree = () => {
   return (
     <ContentsThreeContainer>
       <LineTextOne marginTop={"5vw"}>
-        KGA 웹개발 3기 <text style={{ color: "#2D31FA" }}>커리큘럼</text>
+        공공데이터 융합 웹개발{" "}
+        <text style={{ color: "#2D31FA" }}>커리큘럼</text>
       </LineTextOne>
       <div
         style={{
