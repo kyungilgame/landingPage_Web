@@ -185,9 +185,7 @@ const ContentsOne = ({ open, setOpen, onOpenModal, onCloseModal }) => {
           ></InnerContentsBox>
           <LastLineInnerBox
             as={"a"}
-            href={
-              "https://docs.google.com/forms/d/e/1FAIpQLSfN_dak5rYSmtBjmTog0ccn7n-ZcBCWq22MMCujt72XqIlBvA/viewform"
-            }
+            href={"https://forms.gle/W5ndKUxNeXrbagQv9"}
           >
             <text
               style={{
