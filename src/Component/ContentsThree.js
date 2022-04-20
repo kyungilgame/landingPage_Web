@@ -86,7 +86,7 @@ const SectionPage = (sectionState) => {
           첫번째 웹 페이지 만들어 보기
         </LineTextFour>
         <LineTextFour marginTop={"1vw"}>
-          첫번째 정적 웹 페이지 호스팅해 보기
+          첫번째 정적 웹 페이지 호스팅 해보기
         </LineTextFour>
       </div>
     );
@@ -139,7 +139,7 @@ const SectionPage = (sectionState) => {
 
         <LineTextFour marginTop={"2vw"}>데이터베이스와 SQL 입문</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
-          빅데이터 수집 시스템을 위한 Pyhon 언어 학습
+          빅데이터 수집 시스템을 위한 Python 언어 학습
         </LineTextFour>
         <LineTextFour marginTop={"1vw"}>
           빅데이터 라이브러리를 활용한 분석, 시각화, 통계분석, 자동화
