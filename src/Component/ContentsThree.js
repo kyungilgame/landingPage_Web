@@ -20,22 +20,6 @@ const LineTextOne = styled.div`
   }}
 `;
 
-const LineTextTwo = styled.div`
-  font-family: "Pretendard-Bold";
-  font-size: 2vw;
-  ${({ marginTop }) => {
-    return marginTop ? `margin-top: ${marginTop}` : null;
-  }}
-`;
-
-const LineTextThree = styled.div`
-  font-family: "Pretendard-ExtraBold";
-  font-size: 2vw;
-  ${({ marginTop }) => {
-    return marginTop ? `margin-top: ${marginTop}` : null;
-  }}
-`;
-
 const LineTextFour = styled.div`
   font-family: "Pretendard-Light";
   font-size: 1.3vw;
@@ -99,7 +83,6 @@ const SectionPage = (sectionState) => {
         }}
       >
         <LineTextFive marginTop={"2vw"}>프로그래밍 언어 심화</LineTextFive>
-
         <LineTextFour marginTop={"2vw"}>깃허브를 이용한 버전관리</LineTextFour>
         <LineTextFour marginTop={"1vw"}>자바스크립트 심화</LineTextFour>
         <LineTextFour marginTop={"1vw"}>자바 입문</LineTextFour>
@@ -117,7 +100,6 @@ const SectionPage = (sectionState) => {
         }}
       >
         <LineTextFive marginTop={"2vw"}>스프링 프레임워크</LineTextFive>
-
         <LineTextFour marginTop={"2vw"}>스프링 개발 환경 구축</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
           스프링으로 웹 게시판 만들기
@@ -136,7 +118,6 @@ const SectionPage = (sectionState) => {
         }}
       >
         <LineTextFive marginTop={"2vw"}>공공데이터 활용하기</LineTextFive>
-
         <LineTextFour marginTop={"2vw"}>데이터베이스와 SQL 입문</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
           빅데이터 수집 시스템을 위한 Python 언어 학습
@@ -158,7 +139,6 @@ const SectionPage = (sectionState) => {
         }}
       >
         <LineTextFive marginTop={"2vw"}>공공데이터 융합 프로젝트</LineTextFive>
-
         <LineTextFour marginTop={"2vw"}>
           공공 빅데이터를 활용한 웹/앱 어플리케이션 설계
         </LineTextFour>
@@ -177,7 +157,6 @@ const SectionPage = (sectionState) => {
         }}
       >
         <LineTextFive marginTop={"2vw"}>취업 준비</LineTextFive>
-
         <LineTextFour marginTop={"2vw"}>취업 특강</LineTextFour>
         <LineTextFour marginTop={"1vw"}>취업전략 설계</LineTextFour>
         <LineTextFour marginTop={"1vw"}>

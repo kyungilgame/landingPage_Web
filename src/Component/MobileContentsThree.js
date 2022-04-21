@@ -20,22 +20,6 @@ const LineTextOne = styled.div`
   }}
 `;
 
-const LineTextTwo = styled.div`
-  font-family: "Pretendard-Bold";
-  font-size: 3.5vw;
-  ${({ marginTop }) => {
-    return marginTop ? `margin-top: ${marginTop}` : null;
-  }}
-`;
-
-const LineTextThree = styled.div`
-  font-family: "Pretendard-ExtraBold";
-  font-size: 3.5vw;
-  ${({ marginTop }) => {
-    return marginTop ? `margin-top: ${marginTop}` : null;
-  }}
-`;
-
 const LineTextFour = styled.div`
   font-family: "Pretendard-Light";
   font-size: 2.5vw;
@@ -47,14 +31,6 @@ const LineTextFour = styled.div`
 const LineTextFive = styled.div`
   font-family: "Pretendard-Bold";
   font-size: 3.5vw;
-  ${({ marginTop }) => {
-    return marginTop ? `margin-top: ${marginTop}` : null;
-  }}
-`;
-
-const LineTextSix = styled.div`
-  font-family: "Pretendard-Light";
-  font-size: 2.4vw;
   ${({ marginTop }) => {
     return marginTop ? `margin-top: ${marginTop}` : null;
   }}
@@ -109,7 +85,6 @@ const SectionPage = (sectionState) => {
         }}
       >
         <LineTextFive marginTop={"2vw"}>프로그래밍 언어 심화</LineTextFive>
-
         <LineTextFour marginTop={"2vw"}>깃허브를 이용한 버전관리</LineTextFour>
         <LineTextFour marginTop={"1vw"}>자바스크립트 심화</LineTextFour>
         <LineTextFour marginTop={"1vw"}>자바 입문</LineTextFour>
@@ -128,7 +103,6 @@ const SectionPage = (sectionState) => {
         }}
       >
         <LineTextFive marginTop={"2vw"}>스프링 프레임워크</LineTextFive>
-
         <LineTextFour marginTop={"2vw"}>스프링 개발 환경 구축</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
           스프링으로 웹 게시판 만들기
@@ -148,7 +122,6 @@ const SectionPage = (sectionState) => {
         }}
       >
         <LineTextFive marginTop={"2vw"}>공공데이터 활용하기</LineTextFive>
-
         <LineTextFour marginTop={"2vw"}>데이터베이스와 SQL 입문</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
           빅데이터 수집 시스템을 위한 Python 언어 학습
@@ -171,7 +144,6 @@ const SectionPage = (sectionState) => {
         }}
       >
         <LineTextFive marginTop={"2vw"}>공공데이터 융합 프로젝트</LineTextFive>
-
         <LineTextFour marginTop={"2vw"}>
           공공 빅데이터를 활용한 웹/앱 어플리케이션 설계
         </LineTextFour>
@@ -191,7 +163,6 @@ const SectionPage = (sectionState) => {
         }}
       >
         <LineTextFive marginTop={"2vw"}>취업 준비</LineTextFive>
-
         <LineTextFour marginTop={"2vw"}>취업 특강</LineTextFour>
         <LineTextFour marginTop={"1vw"}>취업전략 설계</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
@@ -207,8 +178,7 @@ const MobileContentsThree = () => {
   return (
     <ContentsThreeContainer>
       <LineTextOne marginTop={"5vw"}>
-        공공데이터 융합 웹개발{" "}
-        <text style={{ color: "#2D31FA" }}>커리큘럼</text>
+        공공데이터 웹개발 <text style={{ color: "#2D31FA" }}>커리큘럼</text>
       </LineTextOne>
       <div
         style={{

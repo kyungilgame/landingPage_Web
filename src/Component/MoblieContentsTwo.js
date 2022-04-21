@@ -8,7 +8,7 @@ import LongLine from "../Image/LongLine.png";
 
 const ContentsTwoContainer = styled.div`
   width: 100%;
-  height: 230vw;
+  height: 250vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -164,32 +164,9 @@ const MobileContentsTwo = () => {
         <text>기관이 업무를 수행하며 만들어낸</text>
       </LineSizeTwo>
       <LineSizeTwo>
-        <text>다양한 형태의 모든 자료 또는 정보</text>
+        <text>다양한 형태의 모든 자료 또는 정보를 일컫는다.</text>
       </LineSizeTwo>
 
-      <LineSizeOne marginTop={"5vw"}>IT 취업의 전통 강자 KGA</LineSizeOne>
-
-      <LineSizeOne>
-        <text style={{ color: "#051367" }}>믿고 따라오세요!🚀</text>
-      </LineSizeOne>
-      <div
-        style={{
-          width: "50vw",
-          height: "10vw",
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-between",
-          alignItems: "center",
-          marginTop: "5vw",
-        }}
-      >
-        <ImageContainerOne src={Logo}></ImageContainerOne>
-        <div>
-          <XImageLeft></XImageLeft>
-          <XImageRight></XImageRight>
-        </div>
-        <ImageContainerOne src={MinistryImage}></ImageContainerOne>
-      </div>
       <MiddleLineContainer>
         <div
           style={{ width: "20%", height: "0.5vw", backgroundColor: "#5D8BF4" }}
@@ -268,6 +245,42 @@ const MobileContentsTwo = () => {
           </LineSizeSix>
         </GreenBoxWrapperOne>
       </GreenBoxContainer>
+      <div
+        style={{
+          width: "100%",
+          height: "40vw",
+          backgroundColor: "#dff6ff",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: "10vw",
+        }}
+      >
+        {" "}
+        <LineSizeOne marginTop={"5vw"}>IT 취업의 전통 강자 KGA</LineSizeOne>
+        <LineSizeOne>
+          <text style={{ color: "#051367" }}>믿고 따라오세요!🚀</text>
+        </LineSizeOne>
+        <div
+          style={{
+            width: "50vw",
+            height: "10vw",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
+            alignItems: "center",
+            marginTop: "5vw",
+          }}
+        >
+          <ImageContainerOne src={Logo}></ImageContainerOne>
+          <div>
+            <XImageLeft></XImageLeft>
+            <XImageRight></XImageRight>
+          </div>
+          <ImageContainerOne src={MinistryImage}></ImageContainerOne>
+        </div>
+      </div>
     </ContentsTwoContainer>
   );
 };

@@ -9,7 +9,7 @@ import Companys from "../Image/Companys.png";
 
 const ContentsTwoContainer = styled.div`
   width: 100%;
-  height: 197vw;
+  height: 350vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -198,7 +198,7 @@ const BlackBoxWrapper = styled.div`
 
 const LastContentsWrapper = styled.div`
   width: 100%;
-  height: 60vw;
+  height: 45vw;
   background-color: #101010;
   display: flex;
   flex-direction: column;
@@ -255,31 +255,10 @@ const ContentsTwo = () => {
             alignItems: "center",
           }}
         >
-          <text>다양한 형태의 모든 자료 또는 정보</text>
+          <text>다양한 형태의 모든 자료 또는 정보를 일컫는다.</text>
         </div>
       </LineSizeOnePlus>
-      <LineSizeOne marginTop={"8vw"}>IT 취업의 전통 강자 KGA</LineSizeOne>
-      <LineSizeOne>
-        <text style={{ color: "#051367" }}>믿고 따라오세요🚀</text>
-      </LineSizeOne>
-      <div
-        style={{
-          width: "50vw",
-          height: "10vw",
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-around",
-          alignItems: "center",
-          marginTop: "1vw",
-        }}
-      >
-        <ImageContainerOne src={Logo}></ImageContainerOne>
-        <div>
-          <XImageLeft></XImageLeft>
-          <XImageRight></XImageRight>
-        </div>
-        <ImageContainerTwo src={MinistryImage}></ImageContainerTwo>
-      </div>
+
       <MiddleLineContainer>
         <div
           style={{ width: "35%", height: "0.2vw", backgroundColor: "#5D8BF4" }}
@@ -367,6 +346,44 @@ const ContentsTwo = () => {
       <ContentsBoxContainer>
         <BlackBoxWrapper src={Companys}></BlackBoxWrapper>
       </ContentsBoxContainer>
+
+      <div
+        style={{
+          width: "100%",
+          height: "25vw",
+          backgroundColor: "#dff6ff",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <LineSizeOne style={{ marginTop: "2vw" }}>
+          IT 취업의 전통 강자 KGA
+        </LineSizeOne>
+        <LineSizeOne>
+          <text style={{ color: "#051367" }}>믿고 따라오세요🚀</text>
+        </LineSizeOne>
+        <div
+          style={{
+            width: "50vw",
+            height: "10vw",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-around",
+            alignItems: "center",
+            marginTop: "1vw",
+          }}
+        >
+          <ImageContainerOne src={Logo}></ImageContainerOne>
+          <div>
+            <XImageLeft></XImageLeft>
+            <XImageRight></XImageRight>
+          </div>
+          <ImageContainerTwo src={MinistryImage}></ImageContainerTwo>
+        </div>
+      </div>
+
       <LineSizeOne style={{ marginTop: "5vw" }}>
         <text style={{ color: "#2D31FA" }}>왜 Java와 Python인가요? </text>
       </LineSizeOne>
@@ -385,10 +402,99 @@ const ContentsTwo = () => {
       <LineSizeTwo style={{ marginBottom: "7vw" }}>
         공공사업 개발 시 사용하는 공공 프레임은 모두 자바로 구동됩니다.
       </LineSizeTwo>
+
+      <div
+        style={{
+          width: "60vw",
+          height: "22vw",
+          backgroundColor: "#DFF6FF",
+          marginBottom: "5vw",
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            width: "23vw",
+            height: "100%",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "flex-start",
+            alignItems: "center",
+            marginRight: "3.5vw",
+          }}
+        >
+          <text
+            style={{
+              fontFamily: "Pretendard-Bold",
+              fontSize: "3vw",
+              marginTop: "2.5vw",
+              color: "#105ee6",
+            }}
+          >
+            JAVA
+          </text>
+          <text
+            style={{
+              fontFamily: "Pretendard-Regular",
+              fontSize: "1.4vw",
+              marginTop: "2vw",
+            }}
+          >
+            요새 개발자라면 자바 안 배우는 사람 없죠! 안드로이드 앱과 서버
+            개발에 특히 많이 쓰이고, 틀이 잘 갖추어져 협업에 적합합니다.
+            객체지향 프로그래밍을 추구하기 때문에 객체지향적 사고방식을 배울 수
+            있다는 것도 장점입니다.
+          </text>
+        </div>
+
+        <div
+          style={{ height: "80%", width: "0.2vw", backgroundColor: "skyblue" }}
+        ></div>
+        <div
+          style={{
+            width: "23vw",
+            height: "100%",
+
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "flex-start",
+            alignItems: "center",
+            marginLeft: "3.5vw",
+          }}
+        >
+          <text
+            style={{
+              fontFamily: "Pretendard-Bold",
+              fontSize: "3vw",
+              marginTop: "2.5vw",
+              color: "#105ee6",
+            }}
+          >
+            PYTHON
+          </text>
+          <text
+            style={{
+              fontFamily: "Pretendard-Regular",
+              fontSize: "1.3vw",
+              marginTop: "2vw",
+            }}
+          >
+            가장 쉬운 컴퓨터 언어 파이썬! 쉽고 강력한 기능으로 무장한 파이썬은
+            최근 빅데이터 기술의 출현으로 인기를 얻게 되었어요. 타 언어에 비해
+            간단하고 사람 친화적이어서 프로그래밍 지식이 없는 분들도 쉽게 시작할
+            수 있답니다. 다양한 분야에서 쓰여 날로 인기가 많아지는 파이썬은 이제
+            선택이 아닌 필수입니다.
+          </text>
+        </div>
+      </div>
+
       <LastContentsWrapper>
         <div
           style={{
-            width: "37vw",
+            width: "40vw",
             height: "3vw",
             backgroundColor: "#DFF6FF",
             display: "flex",
@@ -398,7 +504,9 @@ const ContentsTwo = () => {
           }}
         >
           <LineSizeOne>
-            <text style={{ color: "DFF6FF" }}>KGA 웹개발자 양성과정 3기</text>
+            <text style={{ color: "DFF6FF" }}>
+              당신을 위한 확실한 취업 솔루션
+            </text>
           </LineSizeOne>
         </div>
         <LineSizeThree marginTop={"2vw"}>
@@ -485,6 +593,176 @@ const ContentsTwo = () => {
           </LastContentsInnerBox>
         </div>
       </LastContentsWrapper>
+      <LineSizeOne style={{ marginTop: "10vw", color: "#051367" }}>
+        KGA에서 자바/파이썬을 배워야하는 이유?
+      </LineSizeOne>
+      <LineSizeTwo style={{ marginTop: "3vw" }}>
+        각종 공공데이터를 활용한 앱/웹 서비스 개발을 배웁니다.
+      </LineSizeTwo>
+      <LineSizeTwo style={{}}>
+        디지털 기술을 기반으로 다양한 기기와 네트워크, 콘텐츠의 융합을 통해
+      </LineSizeTwo>
+      <LineSizeTwo style={{}}>
+        새로운 형태의 제품과 서비스를 창출합니다.
+      </LineSizeTwo>
+      <LineSizeTwo style={{}}>
+        기기·네트워크·콘텐츠를 기획하고, 설계하고, 제작하고, 운용합니다.
+      </LineSizeTwo>
+      <LineSizeTwo style={{}}>
+        웹/앱을 연동하고, 공공데이터-민간 데이터의 융합 SW를 개발합니다.
+      </LineSizeTwo>
+      <div
+        style={{
+          width: "80%",
+          height: "60vw",
+
+          marginTop: "10vw",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-around",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            width: "100%",
+            height: "33%",
+
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+          }}
+        >
+          <div
+            style={{
+              width: "40%",
+              height: "90%",
+              border: "solid",
+              borderRadius: "2vw",
+            }}
+          ></div>
+          <div
+            style={{
+              width: "40%",
+              height: "90%",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "start",
+            }}
+          >
+            <text style={{ fontFamily: "Pretendard-Bold", fontSize: "2vw" }}>
+              1. 누구보다 빠르고 쉽게,
+            </text>
+            <text
+              style={{
+                fontFamily: "Pretendard-Bold",
+                fontSize: "2vw",
+                marginLeft: "1.9vw",
+              }}
+            >
+              공공데이터 개발자가 되세요
+            </text>
+            <text style={{ marginTop: "1.5vw" }}>
+              -비전공자, 코딩 초보를 위한 커리큘럼으로 코딩에 대한 이해를 돕고
+              아이디어 구축 및 적용 시간을 절약합니다.
+            </text>
+            <text>
+              -대학에서 2년간 배우는 과정을 7개월로 압축! 커리어 전환이
+              비약적으로 빨라집니다.
+            </text>
+          </div>
+        </div>
+
+        <div
+          style={{
+            width: "100%",
+            height: "33%",
+
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+          }}
+        >
+          <div
+            style={{
+              width: "40%",
+              height: "90%",
+              border: "solid",
+              borderRadius: "2vw",
+            }}
+          ></div>
+          <div
+            style={{
+              width: "40%",
+              height: "90%",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "start",
+            }}
+          >
+            <text style={{ fontFamily: "Pretendard-Bold", fontSize: "2vw" }}>
+              2. 효율적으로 준비하세요
+            </text>
+            <text style={{ marginTop: "1vw" }}>
+              -과정 수료 전부터 취업 연계가 진행되며, 공부와 취업 동시 준비가
+              가능합니다.
+            </text>
+            <text>
+              -현업자들이 실제 사용하는 툴을 사용해 미리 실무에 익숙해질 수
+              있습니다.
+            </text>
+          </div>
+        </div>
+        <div
+          style={{
+            width: "100%",
+            height: "33%",
+
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+          }}
+        >
+          <div
+            style={{
+              width: "40%",
+              height: "90%",
+              border: "solid",
+              borderRadius: "2vw",
+            }}
+          ></div>
+          <div
+            style={{
+              width: "40%",
+              height: "90%",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "start",
+            }}
+          >
+            <text style={{ fontFamily: "Pretendard-Bold", fontSize: "2vw" }}>
+              3. 생산성 극대화, KGA가 이뤄드려요
+            </text>
+            <text style={{ marginTop: "1vw" }}>
+              -다양한 개발 환경을 구축할 수 있습니다
+            </text>
+            <text>
+              -KGA를 통해 커리어 쌓기의 시간은 줄이고 효율은 높여 보세요.
+            </text>
+          </div>
+        </div>
+      </div>
+      <div
+        style={{
+          width: "100%",
+          height: "0.2vw",
+          backgroundColor: "#5D8BF4",
+          marginTop: "5vw",
+        }}
+      ></div>
     </ContentsTwoContainer>
   );
 };

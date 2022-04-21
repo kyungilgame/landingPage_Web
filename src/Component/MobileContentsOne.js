@@ -5,7 +5,7 @@ import Image from "../Image/MobileBackgroundImage.png";
 
 const ContentsOneContainer = styled.div`
   width: 100%;
-  height: 95vw;
+  height: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -45,7 +45,7 @@ const ContentsBox = styled.div`
 
 const FirstLineInnerBox = styled.div`
   font-family: "Pretendard-ExtraBold";
-  font-size: 5vw;
+  font-size: 4vw;
   color: #051367;
   margin-top: 4vw;
   margin-bottom: 1vw;
@@ -55,7 +55,7 @@ const LastLineInnerBox = styled.button`
   font-family: "Pretendard-Bold";
   margin-top: 1vw;
   width: 100%;
-  height: 10vw;
+  height: 7vw;
   background-color: #101010;
   margin-top: auto;
   display: flex;
@@ -78,7 +78,8 @@ const InnerContentsBox = ({ title, duration }) => {
           width: "4vw",
           height: "0.15vw",
           backgroundColor: "#0d7377",
-          marginTop: "1.5vw",
+          marginTop: "1vw",
+          marginBottom: "1vw",
         }}
       ></div>
       <div>
@@ -100,9 +101,64 @@ const MobileContentsOne = () => {
   return (
     <>
       <ContentsOneContainer>
-        <FirstLine>Java/Python 기반 공공데이터 SW 엔지니어</FirstLine>
+        <FirstLine>Java/Python 기반 </FirstLine>
         <SecondLine>공공데이터</SecondLine>
         <SecondLine>웹 개발자 양성과정</SecondLine>
+        <text
+          style={{
+            fontSize: "2.5vw",
+            fontFamily: "Pretendard-Regular",
+            color: "#101010",
+            marginTop: "1.5vw",
+          }}
+        >
+          KGA 웹개발 과정은 웹/앱 개발과
+        </text>
+        <text
+          style={{
+            fontSize: "2.5vw",
+            fontFamily: "Pretendard-Regular",
+            color: "#101010",
+          }}
+        >
+          빅데이터, 공공데이터를 통합한 과정입니다.
+        </text>
+        <text
+          style={{
+            fontSize: "2.5vw",
+            fontFamily: "Pretendard-Regular",
+            color: "#101010",
+          }}
+        >
+          배우는 언어의 커버리지가 넓고, 넓은 스펙트럼을 경험할 수 있어
+        </text>
+        <text
+          style={{
+            fontSize: "2.5vw",
+            fontFamily: "Pretendard-Regular",
+            color: "#101010",
+          }}
+        >
+          다양한 직군으로의 취업이 가능합니다.
+        </text>
+        <text
+          style={{
+            fontSize: "2.5vw",
+            fontFamily: "Pretendard-Regular",
+            color: "#101010",
+          }}
+        >
+          KGA가 제공하는 최적의 커리큘럼을 통해
+        </text>
+        <text
+          style={{
+            fontSize: "2.5vw",
+            fontFamily: "Pretendard-Regular",
+            color: "#101010",
+          }}
+        >
+          이전에는 경험하지 못한 성장을 이루어 보세요.
+        </text>
         <ContentsBox>
           <FirstLineInnerBox>KGA 공공데이터 웹개발 3기</FirstLineInnerBox>
           <InnerContentsBox
@@ -129,18 +185,10 @@ const MobileContentsOne = () => {
               style={{
                 fontSize: "4vw",
                 color: "white",
-              }}
-            >
-              부트캠프 3기
-            </text>
-            <text
-              style={{
-                fontSize: "4vw",
-                color: "white",
                 marginLeft: "0.5vw",
               }}
             >
-              바로 지원하기
+              지원하기
             </text>
           </LastLineInnerBox>
         </ContentsBox>

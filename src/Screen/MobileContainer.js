@@ -57,11 +57,11 @@ function MobileContainer() {
       <MobileHeader />
       <MobileContentsOne></MobileContentsOne>
       <MobileContentsTwo></MobileContentsTwo>
-      <MobileTypoGraphy></MobileTypoGraphy>
+
       <MobileContentsThree></MobileContentsThree>
       <MobileContentsFour></MobileContentsFour>
       <MobileVideo></MobileVideo>
-
+      <MobileTypoGraphy></MobileTypoGraphy>
       <MobileFAQBoard></MobileFAQBoard>
       <MobileFooter></MobileFooter>
       <MobileBottomCTABar></MobileBottomCTABar>

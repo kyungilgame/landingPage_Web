@@ -59,10 +59,9 @@ const VideoPlayWrapper = styled.div`
 const Video = () => {
   return (
     <VideoContainer>
-      <LineSizeOne marginTop={"5vw"}>도전하세요!</LineSizeOne>
-      <LineSizeTwo>
-        여러분도 <text style={{ color: "#101010" }}>할 수 있습니다</text>
-      </LineSizeTwo>
+      <LineSizeOne marginTop={"5vw"}>망설이지 말고 </LineSizeOne>
+      <LineSizeOne>바로 시작하세요</LineSizeOne>
+      <LineSizeTwo>남들보다 쉽게 개발 커리어를 시작하세요!</LineSizeTwo>
       <VideoPlayWrapper>
         <ReactPlayer
           url="https://youtu.be/5K8GYWfGbnw"

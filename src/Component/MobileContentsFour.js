@@ -5,7 +5,7 @@ import ArrowImage from "../Image/ArrowBlack.png";
 
 const ContentsFourContainer = styled.div`
   width: 100%;
-  height: 125vw;
+  height: 150vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -84,12 +84,9 @@ const MobileContentsFour = () => {
   return (
     <ContentsFourContainer>
       <TextStyleOne marginTop={"7vw"}>
-        <text style={{ color: "white" }}>아래의 자격을 갖췄다면 </text>
+        <text style={{ color: "white" }}>KGA 웹 개발자 양성과정 </text>
       </TextStyleOne>
-      <TextStyleOne>
-        <text style={{ color: "white" }}>지원</text>
-        <text style={{ color: "white" }}>하세요</text>
-      </TextStyleOne>
+
       <div
         style={{
           display: "flex",
@@ -101,18 +98,14 @@ const MobileContentsFour = () => {
       >
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#5D8BF4" }}>국민내일배움카드</text>
-          </TextStyleTwo>
-          <TextStyleTwo>
-            <text style={{ color: "white" }}>발급이 가능한 분</text>
+            <text style={{ color: "#5D8BF4" }}>코딩에 처음 입문하시는 분</text>
           </TextStyleTwo>
         </BlackBox>
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#5D8BF4" }}>15시 30분부터 22시까지</text>
-          </TextStyleTwo>
-          <TextStyleTwo>
-            <text style={{ color: "white" }}>풀타임 학습이 가능한 분</text>
+            <text style={{ color: "#5D8BF4", marginTop: "2vw" }}>
+              자바를 처음 배우는 분
+            </text>
           </TextStyleTwo>
         </BlackBox>
       </div>
@@ -126,28 +119,50 @@ const MobileContentsFour = () => {
       >
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#5D8BF4" }}>흥미가 아니라</text>
+            <text style={{ color: "#5D8BF4" }}>파이썬 프로그래밍을</text>
           </TextStyleTwo>
           <TextStyleTwo>
-            <text style={{ color: "white" }}>취업을 위해 전력질주 하실 분</text>
+            <text style={{ color: "#5D8BF4" }}>배우고 싶은 분</text>
           </TextStyleTwo>
         </BlackBox>
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#5D8BF4" }}>지금이 마지막이라는</text>
+            <text style={{ color: "#5D8BF4" }}>자바와 파이썬을 함께</text>
           </TextStyleTwo>
           <TextStyleTwo>
-            <text style={{ color: "white" }}>절박감으로 도전하실 분</text>
+            <text style={{ color: "#5D8BF4" }}>시작하고 싶은 분</text>
           </TextStyleTwo>
         </BlackBox>
       </div>
-      <TextStyleFour marginTop={"3vw"}>
-        <text style={{ color: "white" }}>국민내일배움카드가 처음이신가요?</text>
+      <TextStyleFour marginTop={"5vw"} style={{ fontSize: "3vw" }}>
+        <text style={{ color: "white" }}>
+          프로그램 구현 능력을 기를 수 있습니다
+        </text>{" "}
       </TextStyleFour>
-
-      <TextStyleThree>
-        <text style={{ color: "#DFF6FF" }}>쉽고 빠르게 신청하세요!</text>
-      </TextStyleThree>
+      <TextStyleFour style={{ fontSize: "3vw", marginTop: "2vw" }}>
+        <text style={{ color: "white" }}>
+          다양한 언어의 기초 문법과 데이터 관리 등에 대해 학습합니다
+        </text>{" "}
+      </TextStyleFour>
+      <TextStyleFour style={{ fontSize: "3vw", marginTop: "2vw" }}>
+        <text style={{ color: "white" }}>전문적인 데이터를 관리하는</text>{" "}
+      </TextStyleFour>
+      <TextStyleFour style={{ fontSize: "3vw" }}>
+        <text style={{ color: "white" }}>
+          연구원, 개발자, 데이터 과학자가 될 수 있습니다
+        </text>{" "}
+      </TextStyleFour>
+      <TextStyleFour style={{ fontSize: "3vw", marginTop: "2vw" }}>
+        <text style={{ color: "white" }}>
+          웹 어플리케이션 개발, 파이썬을 이용한 빅데이터 전문과정입니다
+        </text>{" "}
+      </TextStyleFour>
+      <TextStyleFour style={{ fontSize: "3vw", marginTop: "2vw" }}>
+        <text style={{ color: "white" }}>많은 데이터를 직접 분석하는</text>{" "}
+      </TextStyleFour>
+      <TextStyleFour style={{ fontSize: "3vw", marginBottom: "6vw" }}>
+        <text style={{ color: "white" }}>빅데이터 전문가가 될 수 있습니다</text>{" "}
+      </TextStyleFour>
       <SupplyBox as={"a"} href={"https://forms.gle/W5ndKUxNeXrbagQv9"}>
         <text
           style={{

@@ -152,7 +152,7 @@ const ContentsOne = ({ open, setOpen, onOpenModal, onCloseModal }) => {
             alignItems: "center",
             width: "25vw",
             height: "5vw",
-            marginTop: "7vw",
+            marginTop: "1vw",
           }}
         >
           <ImageContainerOne src={Logo}></ImageContainerOne>
@@ -165,6 +165,37 @@ const ContentsOne = ({ open, setOpen, onOpenModal, onCloseModal }) => {
         <FirstLine>Java/Python 기반 공공데이터 SW 엔지니어</FirstLine>
         <SecondLine>공공데이터</SecondLine>
         <SecondLine>웹 개발자 양성과정</SecondLine>
+        <text
+          style={{
+            fontSize: "1vw",
+            fontFamily: "Pretendard-Regular",
+            color: "#101010",
+            marginTop: "0.5vw",
+          }}
+        >
+          KGA 웹개발 과정은 웹/앱 개발과 빅데이터, 공공데이터를 통합한
+          과정입니다.
+        </text>
+        <text
+          style={{
+            fontSize: "1vw",
+            fontFamily: "Pretendard-Regular",
+            color: "#101010",
+          }}
+        >
+          배우는 언어의 커버리지가 넓고, 넓은 스펙트럼을 경험할 수 있어 다양한
+          직군으로의 취업이 가능합니다.
+        </text>
+        <text
+          style={{
+            fontSize: "1vw",
+            fontFamily: "Pretendard-Regular",
+            color: "#101010",
+          }}
+        >
+          KGA가 제공하는 최적의 커리큘럼을 통해 이전에는 경험하지 못한 성장을
+          이루어 보세요.
+        </text>
         <ContentsBox>
           <FirstLineInnerBox>KGA 공공데이터 웹개발 3기</FirstLineInnerBox>
           <InnerContentsBox
@@ -186,6 +217,7 @@ const ContentsOne = ({ open, setOpen, onOpenModal, onCloseModal }) => {
           <LastLineInnerBox
             as={"a"}
             href={"https://forms.gle/W5ndKUxNeXrbagQv9"}
+            target="_blank"
           >
             <text
               style={{
