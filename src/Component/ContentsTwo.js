@@ -7,6 +7,10 @@ import ShortLine from "../Image/ShortLine.png";
 import LongLine from "../Image/LongLine.png";
 import Companys from "../Image/Companys.png";
 
+import NewImageOne from "../Image/(1)IMG_7255.JPG";
+import NewImageTwo from "../Image/(2)IMG_6837.JPG";
+import NewImageThree from "../Image/NewImageThree.png";
+
 const ContentsTwoContainer = styled.div`
   width: 100%;
   height: 350vw;
@@ -214,6 +218,17 @@ const LastContentsInnerBox = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+`;
+
+const NewBackImage = styled.div`
+  width: 40%;
+  height: 90%;
+  border: solid;
+  border-radius: 2vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(${NewImageThree});
 `;
 
 const ContentsTwo = () => {
@@ -627,20 +642,12 @@ const ContentsTwo = () => {
           style={{
             width: "100%",
             height: "33%",
-
             display: "flex",
             justifyContent: "space-around",
             alignItems: "center",
           }}
         >
-          <div
-            style={{
-              width: "40%",
-              height: "90%",
-              border: "solid",
-              borderRadius: "2vw",
-            }}
-          ></div>
+          <NewBackImage></NewBackImage>
           <div
             style={{
               width: "40%",
@@ -663,11 +670,11 @@ const ContentsTwo = () => {
             >
               공공데이터 개발자가 되세요
             </text>
-            <text style={{ marginTop: "1.5vw" }}>
+            <text style={{ marginTop: "1.5vw", fontSize: "1.5vw" }}>
               -비전공자, 코딩 초보를 위한 커리큘럼으로 코딩에 대한 이해를 돕고
               아이디어 구축 및 적용 시간을 절약합니다.
             </text>
-            <text>
+            <text style={{ fontSize: "1.5vw" }}>
               -대학에서 2년간 배우는 과정을 7개월로 압축! 커리어 전환이
               비약적으로 빨라집니다.
             </text>
@@ -705,11 +712,11 @@ const ContentsTwo = () => {
             <text style={{ fontFamily: "Pretendard-Bold", fontSize: "2vw" }}>
               2. 효율적으로 준비하세요
             </text>
-            <text style={{ marginTop: "1vw" }}>
+            <text style={{ marginTop: "1vw", fontSize: "1.5vw" }}>
               -과정 수료 전부터 취업 연계가 진행되며, 공부와 취업 동시 준비가
               가능합니다.
             </text>
-            <text>
+            <text style={{ fontSize: "1.5vw" }}>
               -현업자들이 실제 사용하는 툴을 사용해 미리 실무에 익숙해질 수
               있습니다.
             </text>
@@ -746,10 +753,10 @@ const ContentsTwo = () => {
             <text style={{ fontFamily: "Pretendard-Bold", fontSize: "2vw" }}>
               3. 생산성 극대화, KGA가 이뤄드려요
             </text>
-            <text style={{ marginTop: "1vw" }}>
+            <text style={{ marginTop: "1vw", fontSize: "1.5vw" }}>
               -다양한 개발 환경을 구축할 수 있습니다
             </text>
-            <text>
+            <text style={{ fontSize: "1.5vw" }}>
               -KGA를 통해 커리어 쌓기의 시간은 줄이고 효율은 높여 보세요.
             </text>
           </div>
