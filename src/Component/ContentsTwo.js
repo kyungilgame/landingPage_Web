@@ -7,8 +7,8 @@ import ShortLine from "../Image/ShortLine.png";
 import LongLine from "../Image/LongLine.png";
 import Companys from "../Image/Companys.png";
 
-import NewImageOne from "../Image/(1)IMG_7255.JPG";
-import NewImageTwo from "../Image/(2)IMG_6837.JPG";
+import NewImageOne from "../Image/NewImageOne.png";
+import NewImageTwo from "../Image/NewImageTwo.png";
 import NewImageThree from "../Image/NewImageThree.png";
 
 const ContentsTwoContainer = styled.div`
@@ -228,7 +228,9 @@ const NewBackImage = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(${NewImageThree});
+  ${({ src }) => {
+    return src ? `background-image: url(${src})` : null;
+  }}
 `;
 
 const ContentsTwo = () => {
@@ -647,7 +649,7 @@ const ContentsTwo = () => {
             alignItems: "center",
           }}
         >
-          <NewBackImage></NewBackImage>
+          <NewBackImage src={NewImageOne}></NewBackImage>
           <div
             style={{
               width: "40%",
@@ -691,14 +693,7 @@ const ContentsTwo = () => {
             alignItems: "center",
           }}
         >
-          <div
-            style={{
-              width: "40%",
-              height: "90%",
-              border: "solid",
-              borderRadius: "2vw",
-            }}
-          ></div>
+          <NewBackImage src={NewImageTwo}></NewBackImage>
           <div
             style={{
               width: "40%",
@@ -732,14 +727,7 @@ const ContentsTwo = () => {
             alignItems: "center",
           }}
         >
-          <div
-            style={{
-              width: "40%",
-              height: "90%",
-              border: "solid",
-              borderRadius: "2vw",
-            }}
-          ></div>
+          <NewBackImage src={NewImageThree}></NewBackImage>
           <div
             style={{
               width: "40%",
