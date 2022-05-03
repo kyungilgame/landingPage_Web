@@ -163,7 +163,7 @@ const MobileContentsOne = () => {
           <FirstLineInnerBox>KGA 공공데이터 웹개발 3기</FirstLineInnerBox>
           <InnerContentsBox
             title={"기간"}
-            duration={"2022.05.16 – 2022.12.14"}
+            duration={"2022.06.08 ~ 2022.12.30"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"시간"}
@@ -171,11 +171,11 @@ const MobileContentsOne = () => {
           ></InnerContentsBox>
           <InnerContentsBox
             title={"모집마감"}
-            duration={"2022.05.10"}
+            duration={"2022.06.03"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"합격자 발표일"}
-            duration={"2022.05.13"}
+            duration={"2022.06.07"}
           ></InnerContentsBox>
           <LastLineInnerBox
             as={"a"}
