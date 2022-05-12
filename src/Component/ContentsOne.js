@@ -204,7 +204,7 @@ const ContentsOne = ({ open, setOpen, onOpenModal, onCloseModal }) => {
           ></InnerContentsBox>
           <InnerContentsBox
             title={"시간"}
-            duration={"PM 15:30 ~ PM 22:00"}
+            duration={"AM 09:00 ~ PM 17:50"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"모집마감"}
