@@ -64,7 +64,7 @@ function MobileContainer() {
       <MobileTypoGraphy></MobileTypoGraphy>
       <MobileFAQBoard></MobileFAQBoard>
       <MobileFooter></MobileFooter>
-      <MobileBottomCTABar></MobileBottomCTABar>
+      {/* <MobileBottomCTABar></MobileBottomCTABar> */}
       <LinkBoxOne as={"a"} href={"tel:02-479-4050"}></LinkBoxOne>
       <LinkBoxTwo
         as={"a"}

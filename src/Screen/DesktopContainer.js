@@ -68,7 +68,7 @@ function DesktopContainer({ open, setOpen, onOpenModal, onCloseModal }) {
       <Video />
       <FAQBoard />
       <Footer />
-      <BottomCTABar />
+      {/* <BottomCTABar /> */}
       <LinkBoxOne
         as={"a"}
         href={"http://www.kiweb.or.kr/?view=pc"}
