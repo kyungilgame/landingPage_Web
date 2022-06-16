@@ -158,11 +158,7 @@ const ContentsFour = () => {
         </text>
       </TextStyleFour>
 
-      <SupplyBox
-        as={"a"}
-        href={"https://forms.gle/W5ndKUxNeXrbagQv9"}
-        target="_blank"
-      >
+      <SupplyBox as={"a"} href={"https://www.kigame.or.kr/#/apply"}>
         <text
           style={{
             fontSize: "1.7vw",

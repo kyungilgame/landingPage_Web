@@ -215,11 +215,7 @@ const ContentsOne = ({ open, setOpen, onOpenModal, onCloseModal }) => {
             title={"합격자 발표일"}
             duration={"2022.06.07"}
           ></InnerContentsBox>
-          <LastLineInnerBox
-            as={"a"}
-            href={"https://forms.gle/W5ndKUxNeXrbagQv9"}
-            target="_blank"
-          >
+          <LastLineInnerBox as={"a"} href={"https://www.kigame.or.kr/#/apply"}>
             <text
               style={{
                 fontSize: "1.5vw",

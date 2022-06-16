@@ -163,7 +163,7 @@ const MobileContentsFour = () => {
       <TextStyleFour style={{ fontSize: "3vw", marginBottom: "6vw" }}>
         <text style={{ color: "white" }}>빅데이터 전문가가 될 수 있습니다</text>{" "}
       </TextStyleFour>
-      <SupplyBox as={"a"} href={"https://forms.gle/W5ndKUxNeXrbagQv9"}>
+      <SupplyBox as={"a"} href={"https://www.kigame.or.kr/#/apply"}>
         <text
           style={{
             fontSize: "3.5vw",
